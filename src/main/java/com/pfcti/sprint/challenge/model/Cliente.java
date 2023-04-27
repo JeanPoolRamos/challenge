@@ -27,6 +27,8 @@ public class Cliente {
     @Column
     private String telefono;
     @Column
+    private String direccion;
+    @Column
     private Boolean estado;
 
 }
